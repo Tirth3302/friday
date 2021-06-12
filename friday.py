@@ -92,5 +92,9 @@ if __name__ == "__main__":
             codePath = "C:\\Program Files\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
 
-        
+        elif 'how are you friday' in query:
+            speak("I am fine sir...")
+
+        elif 'It has been a nice day Friday' in query:
+            speak("Yes sir,it's a wounderful day...")
 
