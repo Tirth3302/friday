@@ -51,15 +51,6 @@ def takeCommand():
     return query
 
 
-'''def sendEmail(to, content):
-    #have to allow less secure apps
-    server = smtplib.SMTP('smntp.gmail.com', 587)
-    server.ehlo()
-    server.starttls()
-    server.login('youremail@gmail.com', 'your-password-here')
-    server.sendmail('youremail@gmail.com', to, content)
-    server.close()'''
-
 
 
 if __name__ == "__main__":
@@ -101,16 +92,5 @@ if __name__ == "__main__":
             codePath = "C:\\Program Files\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
 
-        '''
-        elif 'email to tirth' in query:
-            try:
-                speak("What should I say?")
-                content = takeCommand()
-                to = "@gmail.com"
-                sendEmail(to, content)
-                speak("Email has been sent!")
-            except Exception as e:
-                print(e)
-                speak("Sorry sir, I am not able to send this email")
-        '''
+        
 
